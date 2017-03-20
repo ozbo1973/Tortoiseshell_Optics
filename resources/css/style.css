@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+header {
+	background-image: url(../img/glasses-bg.png);
+}
+
+nav {
+	
+}
+
+nav span a {
+	color: white;
+}
+section {
+	
+}
+
+footer {
+	
+}
+
+/* containers */
+
+.container {
+	width: 960px;
+	
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*text elements */
+
+p {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	margin: 1em; 2em;
+}
+
+ul {
+	
+}
+
+ul li {
+	
+}
+
+/* Header Section */
+
