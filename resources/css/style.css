@@ -28,9 +28,6 @@ section {
 	
 }
 
-footer {
-	
-}
 
 /* containers */
 
@@ -116,4 +113,64 @@ ul li {
 	font-weight: bold;
 	padding: 1.5rem 5rem;
 	text-transform: uppercase;
+}
+
+/* products section */
+.products {
+	flex-direction: column;
+	text-align: center;
+	margin: 3rem;
+	width: 5rem;
+	height: 8rem;
+}
+
+.products img {
+	width: 5rem;
+	margin-bottom: 1rem;
+}
+
+/*.paper-icon {
+	width: 3.5rem;
+}*/
+
+/* business info section */
+.business-sec {
+	width: 35%;
+	margin-right: 5%;
+	margin-bottom: 4rem;
+	margin-left: 4rem;
+}
+
+.business-sec .title {
+	display: block;
+	background-color: cadetblue;
+	max-width: 10rem;
+	padding: 0.5rem 1.25rem;
+	font-weight: bold;
+	font-size: 1rem;
+	color: white;
+	
+}
+
+.business-sec p {
+	padding: 1rem 0;
+}
+
+/*footer section */
+footer {
+	height: 10rem;
+}
+
+.copyright {
+	padding: 4rem 3rem;
+	height: auto;
+	background-color: azure;
+}
+
+.copyright img {
+	height: 1.5em;
+}
+
+.copyright .title {
+	margin-left: 1rem;
 }
